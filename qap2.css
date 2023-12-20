@@ -1,0 +1,161 @@
+.main {
+    width:  1000px;
+    background-color:white ;
+    border: 3px solid orangered;
+    padding: 50px;
+    text-align: left;
+
+}
+
+body{
+    background-image: linear-gradient( blue,red);
+    color: brown;
+    
+
+}
+
+header{
+    background-color: darkseagreen;
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    
+}
+
+h2 {
+    font-family: "comic sans MS";
+    color: darkred;
+
+}
+
+p,li {
+    font-family: arial Black;
+    font-size: 12pt;
+    color: black;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+p1 {
+    font-family: arial Black;
+    font-size: 12pt;
+    color: green;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+
+
+nav a:link {
+    color: red;
+    text-decoration: wavy;
+    font-size: 16pt;
+
+}
+
+nav a:visited {
+    color: blue;
+    text-decoration: none;
+    font-size: 16pt;
+
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+main a:link {
+    color: deeppink;
+    text-decoration-line: underline;
+    font-size: 13pt;
+
+}
+
+main a:visited {
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 13pt;
+
+}
+
+main a:hover {
+    background-color: white;
+    color: deeppink;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+
+.Coloredpara {
+    color: crimson;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: 600;
+    
+}
+
+
+.BlueAndBold {
+    color: blue;
+    font-weight: 700;
+
+}
+
+.ItalText {
+    font-size: italic;
+}
+
+.BoldText {
+    font-display: 700;
+
+}
+
+.RedAndItal {
+
+    color: red;
+    font-weight: 700;
+}
+
+.UnderText {
+    text-decoration: underline;
+    color: olive;
+}
+
+footer{
+    background-color: lightgreen;
+}
+
+section {
+    padding: 20px;
+}
+
+.coralsection {
+    background-color: coral;
+}
+
+.ColorChangeBOX {
+    width: 900px;
+    height: 100px;
+    background-color: aqua;
+    animation: mymove 5s infinite;
+    border: 3px solid black;
+    padding: 50px;
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+@keyframes mymove {
+    from{background-color: aqua;}
+    to {background-color: darkorange;}
+
+    }
